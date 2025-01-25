@@ -18,8 +18,7 @@ With features like item addition, deletion, modification, advanced filtering, an
 | **Shadcn UI**     | A utility-first CSS framework to create responsive and modern UI components. |
 | **pnpm**          | A fast and disk-efficient package manager for managing dependencies.    |
 | **Bun**           | A modern JavaScript runtime for fast bundling and development.           |
-| **Tailwind CSS**  | A utility-first CSS framework for rapid UI development.                  |
-| **Clerk**         | User authentication and management solution.                             |
+| **Tailwind CSS**  | A utility-first CSS framework for rapid UI development.                  |                           |
 | **Lucide React**  | A set of customizable, open-source icons for use in React applications.  |
 | **Radix UI**      | A set of low-level UI components for building high-quality design systems. |
 | **Zod**           | A TypeScript-first schema declaration and validation library.           |
@@ -50,11 +49,11 @@ The app’s design ensures a seamless experience on both **desktop** and **mobil
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/vite_react_shadcn_ts.git
+   git clone url
    ```
 2. Navigate to the project directory:
    ```bash
-   cd vite_react_shadcn_ts
+   cd 📂 name
    ```
 3. Install dependencies with **pnpm**:
    ```bash
@@ -86,7 +85,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📦 **Dependencies**
 
-- **@clerk/clerk-react**: For authentication and user management.
 - **react-hook-form**: For form handling.
 - **@radix-ui/react-xxx**: A set of UI components from Radix UI.
 - **react-query**: For managing and caching API data.
