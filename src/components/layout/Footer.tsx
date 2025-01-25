@@ -13,7 +13,7 @@ export const Footer = () => {
             <span className="text-xl font-bold">Inventory System</span>
           </div>
           
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-center gap-4">
             <Button variant="ghost" size="icon" asChild>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                 <GithubIcon className="h-5 w-5" />

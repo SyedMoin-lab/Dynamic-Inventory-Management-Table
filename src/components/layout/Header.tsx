@@ -22,7 +22,7 @@ export const Header = () => {
               <NavigationMenu className="flex flex-col items-start gap-4" />
             </SheetContent>
           </Sheet>
-          <img src="/placeholder.svg" alt="Logo" className="h-8 w-8" />
+          <img src="/Inventory System.png" alt="Logo" className="h-8 w-8" />
           <span className="text-xl font-bold">Inventory System</span>
         </div>
 
