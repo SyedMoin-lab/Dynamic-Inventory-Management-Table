@@ -1,69 +1,102 @@
-# Welcome to your Lovable project
+# Dynamic Inventory Management Table
 
-## Project info
+## 🛠️ **Project Overview**
 
-**URL**: https://lovable.dev/projects/7f64e9c0-03b5-4c37-94ae-70b6af1f4ee8
+The **Dynamic Inventory Management Table** is a modern web application designed to simplify inventory management. Built using cutting-edge technologies such as **Vite.js**, **React**, **TypeScript**, and **Shadcn UI**, this app offers a smooth and user-friendly interface to efficiently manage and track items.
 
-## How can I edit this code?
+With features like item addition, deletion, modification, advanced filtering, and sorting, this app enhances inventory control. It highlights low-stock items and enables users to take necessary actions. The project is fully **mobile-responsive**, ensuring a seamless experience on both desktop and mobile devices.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 **Built With:**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7f64e9c0-03b5-4c37-94ae-70b6af1f4ee8) and start prompting.
+| Technology        | Description                                                               |
+|-------------------|---------------------------------------------------------------------------|
+| **Vite.js**       | A fast build tool and development server, ensuring lightning-fast app performance.  |
+| **React**         | A powerful JavaScript library for building dynamic UIs.                   |
+| **TypeScript**    | Static typing for enhanced code quality and maintainability.              |
+| **Shadcn UI**     | A utility-first CSS framework to create responsive and modern UI components. |
+| **pnpm**          | A fast and disk-efficient package manager for managing dependencies.    |
+| **Bun**           | A modern JavaScript runtime for fast bundling and development.           |
+| **Tailwind CSS**  | A utility-first CSS framework for rapid UI development.                  |
+| **Clerk**         | User authentication and management solution.                             |
+| **Lucide React**  | A set of customizable, open-source icons for use in React applications.  |
+| **Radix UI**      | A set of low-level UI components for building high-quality design systems. |
+| **Zod**           | A TypeScript-first schema declaration and validation library.           |
+| **React Query**   | Data fetching, caching, synchronization, and more for React apps.       |
+| **Recharts**      | A charting library built with React and D3 to create rich data visualizations. |
+| **Sonner**        | A library for toast notifications.                                        |
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📋 **Project Features:**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Add New Items**: Easily add new inventory items through an intuitive form.
+- **Edit and Delete Items**: Modify or remove existing inventory items as needed.
+- **Filter by Category**: Filter items by category for better organization.
+- **Sort by Quantity**: Sort inventory items in ascending or descending order based on their quantity.
+- **Low-Stock Highlighting**: Automatically highlight items with low stock (below 10) for easy identification and restocking.
+- **Responsive UI**: The app is fully **mobile-responsive**, offering a smooth experience on all devices.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🌐 **Responsive Design**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The app’s design ensures a seamless experience on both **desktop** and **mobile** devices, making it perfect for inventory management on the go.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ **How to Run the Project Locally:**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/vite_react_shadcn_ts.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd vite_react_shadcn_ts
+   ```
+3. Install dependencies with **pnpm**:
+   ```bash
+   pnpm install
+   ```
+4. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+5. Open the app in your browser at `http://localhost:3000`.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📝 **License**
 
-**Use GitHub Codespaces**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🛠️ **Scripts**
 
-This project is built with .
+- `dev`: Starts the Vite development server.
+- `build`: Builds the app for production.
+- `build:dev`: Builds the app in development mode.
+- `lint`: Lints the codebase using ESLint.
+- `preview`: Previews the production build locally.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📦 **Dependencies**
 
-Simply open [Lovable](https://lovable.dev/projects/7f64e9c0-03b5-4c37-94ae-70b6af1f4ee8) and click on Share -> Publish.
+- **@clerk/clerk-react**: For authentication and user management.
+- **react-hook-form**: For form handling.
+- **@radix-ui/react-xxx**: A set of UI components from Radix UI.
+- **react-query**: For managing and caching API data.
+- **clsx**, **class-variance-authority**, **tailwind-merge**: Utilities for handling conditional class names and styling.
+- **recharts**: For visualizing data with charts.
 
-## I want to use a custom domain - is that possible?
+## 🧪 **DevDependencies**
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- **eslint**: Linter for identifying and fixing code quality issues.
+- **@vitejs/plugin-react-swc**: Vite plugin for React with SWC-based optimization.
+- **tailwindcss**: For styling the app with utility-first classes.
+- **typescript-eslint**: TypeScript-specific ESLint configuration.
+- **vite**: The build tool and development server.
