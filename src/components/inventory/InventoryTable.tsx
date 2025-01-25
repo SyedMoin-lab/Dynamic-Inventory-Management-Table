@@ -34,6 +34,23 @@ export const InventoryTable = () => {
     { id: "1", name: "Laptop", category: "Electronics", quantity: 5, price: 999.99 },
     { id: "2", name: "Desk Chair", category: "Furniture", quantity: 12, price: 199.99 },
     { id: "3", name: "Mouse", category: "Electronics", quantity: 8, price: 29.99 },
+    { id: "4", name: "Keyboard", category: "Electronics", quantity: 15, price: 49.99 },
+    { id: "5", name: "Monitor", category: "Electronics", quantity: 7, price: 299.99 },
+    { id: "6", name: "Coffee Table", category: "Furniture", quantity: 10, price: 150.00 },
+    { id: "7", name: "Sofa", category: "Furniture", quantity: 3, price: 799.99 },
+    { id: "8", name: "Bookshelf", category: "Furniture", quantity: 5, price: 120.00 },
+    { id: "9", name: "Blender", category: "Appliances", quantity: 20, price: 89.99 },
+    { id: "10", name: "Toaster", category: "Appliances", quantity: 25, price: 29.99 },
+    { id: "11", name: "Air Fryer", category: "Appliances", quantity: 8, price: 199.99 },
+    { id: "12", name: "Tennis Racket", category: "Sports", quantity: 6, price: 89.99 },
+    { id: "13", name: "Soccer Ball", category: "Sports", quantity: 15, price: 24.99 },
+    { id: "14", name: "Yoga Mat", category: "Sports", quantity: 10, price: 39.99 },
+    { id: "15", name: "Novel", category: "Books", quantity: 30, price: 14.99 },
+    { id: "16", name: "Textbook", category: "Books", quantity: 12, price: 59.99 },
+    { id: "17", name: "Magazine", category: "Books", quantity: 25, price: 5.99 },
+    { id: "18", name: "Action Figure", category: "Toys", quantity: 18, price: 19.99 },
+    { id: "19", name: "Puzzle", category: "Toys", quantity: 22, price: 15.99 },
+    { id: "20", name: "Board Game", category: "Toys", quantity: 10, price: 29.99 },
   ]);
   const [filter, setFilter] = useState("");
   const [editingItem, setEditingItem] = useState<InventoryItem | null>(null);

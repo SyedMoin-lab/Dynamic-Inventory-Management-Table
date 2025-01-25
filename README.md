@@ -18,7 +18,12 @@ With features like item addition, deletion, modification, advanced filtering, an
 | **Shadcn UI**     | A utility-first CSS framework to create responsive and modern UI components. |
 | **pnpm**          | A fast and disk-efficient package manager for managing dependencies.    |
 | **Bun**           | A modern JavaScript runtime for fast bundling and development.           |
+<<<<<<< HEAD
 | **Tailwind CSS**  | A utility-first CSS framework for rapid UI development.                  |                            |
+=======
+| **Tailwind CSS**  | A utility-first CSS framework for rapid UI development.                  |
+| **Clerk**         | User authentication and management solution.                             |
+>>>>>>> 5b80df3fddaa53d0ce141ee2ae94269370519cb6
 | **Lucide React**  | A set of customizable, open-source icons for use in React applications.  |
 | **Radix UI**      | A set of low-level UI components for building high-quality design systems. |
 | **Zod**           | A TypeScript-first schema declaration and validation library.           |
@@ -49,11 +54,19 @@ The app’s design ensures a seamless experience on both **desktop** and **mobil
 
 1. Clone the repo:
    ```bash
+<<<<<<< HEAD
    git clone URL
    ```
 2. Navigate to the project directory:
    ```bash
    cd file name
+=======
+   git clone https://github.com/your-username/vite_react_shadcn_ts.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd vite_react_shadcn_ts
+>>>>>>> 5b80df3fddaa53d0ce141ee2ae94269370519cb6
    ```
 3. Install dependencies with **pnpm**:
    ```bash
@@ -63,7 +76,11 @@ The app’s design ensures a seamless experience on both **desktop** and **mobil
    ```bash
    pnpm dev
    ```
+<<<<<<< HEAD
 5. Open the app in your browser at `http://localhost:8080/`.
+=======
+5. Open the app in your browser at `http://localhost:3000`.
+>>>>>>> 5b80df3fddaa53d0ce141ee2ae94269370519cb6
 
 ---
 
@@ -85,6 +102,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📦 **Dependencies**
 
+<<<<<<< HEAD
+=======
+- **@clerk/clerk-react**: For authentication and user management.
+>>>>>>> 5b80df3fddaa53d0ce141ee2ae94269370519cb6
 - **react-hook-form**: For form handling.
 - **@radix-ui/react-xxx**: A set of UI components from Radix UI.
 - **react-query**: For managing and caching API data.
