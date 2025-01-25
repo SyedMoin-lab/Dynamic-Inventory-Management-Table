@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
+import { GithubIcon, Globe, Linkedin, LinkedinIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Footer = () => {
@@ -12,20 +12,20 @@ export const Footer = () => {
             <span className="text-xl font-bold">Inventory System</span>
           </div>
           
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-4 mx-auto">
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/SyedMoin-lab/Dynamic-Inventory-Management-Table" target="_blank" rel="noopener noreferrer">
                 <GithubIcon className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <LinkedinIcon className="h-5 w-5" />
+              <a href="https://www.linkedin.com/in/syed-moinuddin106/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <TwitterIcon className="h-5 w-5" />
+              <a href="https://syed-moin-v7.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <Globe className="h-5 w-5" />
               </a>
             </Button>
           </div>
