@@ -42,7 +42,8 @@ export const InventoryTable = () => {
 
   const filteredItems = items
     .filter((item) =>
-      item.category.toLowerCase().includes(filter.toLowerCase())
+      item.category.toLowerCase().includes(filter.toLowerCase()) || 
+      item.name.toLowerCase().includes(filter.toLowerCase())
     )
     .sort((a, b) => b.quantity - a.quantity);
 

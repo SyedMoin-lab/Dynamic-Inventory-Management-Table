@@ -4,12 +4,12 @@ import { useTheme } from "@/hooks/use-theme";
 import { 
   MoonIcon, 
   SunIcon 
-       } from "lucide-react";
+} from "lucide-react";
 import { 
   Sheet, 
   SheetContent, 
   SheetTrigger 
-       } from "@/components/ui/sheet";
+} from "@/components/ui/sheet";
 import { NavigationMenu } from "./NavigationMenu";
 
 export const Header = () => {
