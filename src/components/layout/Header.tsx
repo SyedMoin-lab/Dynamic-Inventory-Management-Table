@@ -1,8 +1,15 @@
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/hooks/use-theme";
-import { MoonIcon, SunIcon } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { 
+  MoonIcon, 
+  SunIcon 
+       } from "lucide-react";
+import { 
+  Sheet, 
+  SheetContent, 
+  SheetTrigger 
+       } from "@/components/ui/sheet";
 import { NavigationMenu } from "./NavigationMenu";
 
 export const Header = () => {
@@ -22,7 +29,6 @@ export const Header = () => {
               <NavigationMenu className="flex flex-col items-start gap-4" />
             </SheetContent>
           </Sheet>
-          <img src="/Inventory System.png" alt="Logo" className="h-8 w-8" />
           <span className="text-xl font-bold">Inventory System</span>
         </div>
 
@@ -31,7 +37,11 @@ export const Header = () => {
         </div>
 
         <Button variant="default" size="icon" onClick={toggleTheme}>
-          {theme === 'dark' ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
+          {theme === 'dark' ? (
+            <SunIcon className="h-5 w-5" />
+          ) : (
+            <MoonIcon className="h-5 w-5" />
+          )}
         </Button>
       </div>
     </header>

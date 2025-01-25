@@ -9,7 +9,6 @@ export const Footer = () => {
       <div className="container py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
-            <img src="/placeholder.svg" alt="Logo" className="h-8 w-8" />
             <span className="text-xl font-bold">Inventory System</span>
           </div>
           
